@@ -1,0 +1,266 @@
+﻿{
+    "generated_at":  "2026-09-08T00:26:51.4732731Z",
+    "authoritative_registry":  "Micron_CI_Geo_Research_2026-09-07/geo_research/plant_registry_v2.csv",
+    "source_archives":  [
+                            "Micron_CI_Dev_Pack_2026-09-07_v2.zip",
+                            "Micron_CI_Geo_Research_2026-09-07.zip",
+                            "Micron_CI_Uplevel_Corpus_2026-09-07.zip",
+                            "text.zip",
+                            "ymtc.zip",
+                            "predictleads.zip",
+                            "cxmt.zip",
+                            "eia.zip"
+                        ],
+    "plants":  16,
+    "satellite_probe_sites":  55,
+    "text_documents":  37,
+    "predictleads_news":  5576,
+    "predictleads_jobs":  975,
+    "uplevel_derived_files":  58,
+    "uplevel_derived_rows":  79608,
+    "derived_files":  [
+                          {
+                              "file":  "S10_opendart/derived/capacity_tables.csv",
+                              "rows":  742
+                          },
+                          {
+                              "file":  "S10_opendart/derived/capex_capacity_mentions.csv",
+                              "rows":  332
+                          },
+                          {
+                              "file":  "S10_opendart/derived/filings_index.csv",
+                              "rows":  970
+                          },
+                          {
+                              "file":  "S10_opendart/derived/financials_all_accounts.csv",
+                              "rows":  945
+                          },
+                          {
+                              "file":  "S11_predictleads_v2/derived/connections_compact.csv",
+                              "rows":  1128
+                          },
+                          {
+                              "file":  "S11_predictleads_v2/derived/job_openings_by_month.csv",
+                              "rows":  41
+                          },
+                          {
+                              "file":  "S11_predictleads_v2/derived/job_openings_by_month_category.csv",
+                              "rows":  1016
+                          },
+                          {
+                              "file":  "S11_predictleads_v2/derived/job_openings_compact.csv",
+                              "rows":  2520
+                          },
+                          {
+                              "file":  "S11_predictleads_v2/derived/news_events_compact.csv",
+                              "rows":  164
+                          },
+                          {
+                              "file":  "S11_predictleads_v2/derived/predictleads_v2_flat.csv",
+                              "rows":  30638
+                          },
+                          {
+                              "file":  "S11_predictleads_v2/derived/products_compact.csv",
+                              "rows":  28
+                          },
+                          {
+                              "file":  "S1_trade_stats/derived/comtrade_f2_latest.csv",
+                              "rows":  30
+                          },
+                          {
+                              "file":  "S1_trade_stats/derived/comtrade_f2_monthly.csv",
+                              "rows":  636
+                          },
+                          {
+                              "file":  "S1_trade_stats/derived/equipment_exports_to_china_monthly.csv",
+                              "rows":  344
+                          },
+                          {
+                              "file":  "S1_trade_stats/derived/latest_snapshot.csv",
+                              "rows":  16
+                          },
+                          {
+                              "file":  "S1_trade_stats/derived/memory_854232_trade_monthly.csv",
+                              "rows":  790
+                          },
+                          {
+                              "file":  "S2_dockets/derived/documents.csv",
+                              "rows":  16
+                          },
+                          {
+                              "file":  "S2_dockets/derived/proceedings.csv",
+                              "rows":  26
+                          },
+                          {
+                              "file":  "S2_dockets/derived/timeline.csv",
+                              "rows":  31
+                          },
+                          {
+                              "file":  "S3_bills_of_lading/derived/importyeti_consignees.csv",
+                              "rows":  2
+                          },
+                          {
+                              "file":  "S3_bills_of_lading/derived/importyeti_consignees_pass2.csv",
+                              "rows":  14
+                          },
+                          {
+                              "file":  "S3_bills_of_lading/derived/importyeti_shipments_by_period.csv",
+                              "rows":  5
+                          },
+                          {
+                              "file":  "S3_bills_of_lading/derived/importyeti_shipments_by_period_pass2.csv",
+                              "rows":  51
+                          },
+                          {
+                              "file":  "S3_bills_of_lading/derived/importyeti_suppliers.csv",
+                              "rows":  1
+                          },
+                          {
+                              "file":  "S3_bills_of_lading/derived/importyeti_suppliers_pass2.csv",
+                              "rows":  2
+                          },
+                          {
+                              "file":  "S4_toolmaker_filings/derived/announcements_index.csv",
+                              "rows":  2149
+                          },
+                          {
+                              "file":  "S4_toolmaker_filings/derived/mentions.csv",
+                              "rows":  1257
+                          },
+                          {
+                              "file":  "S4_toolmaker_filings/derived/top_customers_and_backlog.csv",
+                              "rows":  213
+                          },
+                          {
+                              "file":  "S5_patents/derived/candidate_personnel_moves.csv",
+                              "rows":  1
+                          },
+                          {
+                              "file":  "S5_patents/derived/citations.csv",
+                              "rows":  18
+                          },
+                          {
+                              "file":  "S5_patents/derived/citation_matrix.csv",
+                              "rows":  2
+                          },
+                          {
+                              "file":  "S5_patents/derived/cpc_by_assignee_year.csv",
+                              "rows":  11
+                          },
+                          {
+                              "file":  "S5_patents/derived/inventors.csv",
+                              "rows":  90
+                          },
+                          {
+                              "file":  "S5_patents/derived/patents_detail.csv",
+                              "rows":  33
+                          },
+                          {
+                              "file":  "S5_patents/derived/patents_index.csv",
+                              "rows":  2652
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/federal_register.csv",
+                              "rows":  325
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/government_grants_by_year.csv",
+                              "rows":  0
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/government_grant_contexts_from_audit_reports.csv",
+                              "rows":  40
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/government_support_extracts.csv",
+                              "rows":  210
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/korea_tech_leakage_cases.csv",
+                              "rows":  5
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/opensanctions_entities.csv",
+                              "rows":  17
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/screening_list_matches.csv",
+                              "rows":  15
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/tenders.csv",
+                              "rows":  5
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/derived/tenders_pass2.csv",
+                              "rows":  0
+                          },
+                          {
+                              "file":  "S6_grants_tenders_regulatory/raw/csl/consolidated_screening_list_94c55aa5.csv",
+                              "rows":  26082
+                          },
+                          {
+                              "file":  "S7_research_energy/derived/conference_papers.csv",
+                              "rows":  22
+                          },
+                          {
+                              "file":  "S7_research_energy/derived/korea_electricity_by_city.csv",
+                              "rows":  126
+                          },
+                          {
+                              "file":  "S7_research_energy/derived/korea_electricity_sources.csv",
+                              "rows":  8
+                          },
+                          {
+                              "file":  "S7_research_energy/derived/topic_counts.csv",
+                              "rows":  116
+                          },
+                          {
+                              "file":  "S7_research_energy/derived/works.csv",
+                              "rows":  3548
+                          },
+                          {
+                              "file":  "S7_research_energy/derived/works_by_year.csv",
+                              "rows":  35
+                          },
+                          {
+                              "file":  "S8_company_news/derived/company_news_all.csv",
+                              "rows":  1026
+                          },
+                          {
+                              "file":  "S8_company_news/derived/cxmt_news.csv",
+                              "rows":  2
+                          },
+                          {
+                              "file":  "S8_company_news/derived/cxmt_products.csv",
+                              "rows":  4
+                          },
+                          {
+                              "file":  "S8_company_news/derived/skhynix_news.csv",
+                              "rows":  1019
+                          },
+                          {
+                              "file":  "S8_company_news/derived/ymtc_news.csv",
+                              "rows":  5
+                          },
+                          {
+                              "file":  "S8_company_news/derived/zhitai_products.csv",
+                              "rows":  36
+                          },
+                          {
+                              "file":  "S9_ecommerce/derived/jd_listings.csv",
+                              "rows":  48
+                          }
+                      ],
+    "seed_files":  [
+                       "plant_registry.csv",
+                       "plant_registry_geocoded.csv",
+                       "research_index.csv",
+                       "technology_radar.csv"
+                   ],
+    "document_bundles":  {
+                             "cxmt_pdfs":  0,
+                             "ymtc_pdfs":  6,
+                             "eia_pdfs":  1
+                         }
+}

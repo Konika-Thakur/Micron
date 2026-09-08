@@ -1,0 +1,31 @@
+.git
+.next
+node_modules
+
+# Source archives and research corpus are not needed at runtime.
+*.zip
+_raw
+ymtc
+eia
+geo_research
+predictleads
+text
+01_brief
+02_research
+03_repo_process_files
+04_seed_data
+Micron_CI_Dev_Pack_2026-09-07_v2
+Micron_CI_Geo_Research_2026-09-07
+Micron_CI_Uplevel_Corpus_2026-09-07
+scripts
+docs
+*.docx
+*.csv
+*.jsonl
+*.pdf
+*.htm
+*.txt
+
+# The dashboard imports this generated file at build time.
+!data/
+!data/coverage.json
